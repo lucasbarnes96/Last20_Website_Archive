@@ -17,28 +17,32 @@ Last20 was a cleantech startup founded by siblings who developed an innovative s
 
 ### Running the Website Locally
 
-1. **Using Python (Recommended)**:
+1. **Using the Custom Server (Recommended)**:
    ```bash
    python3 server.py
    ```
-   This will start a local server on http://localhost:8000 and automatically open your browser.
+   This will start a local server on http://localhost:8000 and automatically open your browser. The server provides:
+   - A landing page with two viewing options
+   - Mock API responses to reduce 404 errors
+   - Automatic browser opening
 
-2. **Using Python's built-in server**:
+2. **Direct File Access**:
+   - Open `simple.html` in your browser for the best experience
+   - Open `index.html` for the original version (may have some broken features)
+
+3. **Alternative Servers**:
    ```bash
    python3 -m http.server 8000
-   ```
-   Then open http://localhost:8000 in your browser.
-
-3. **Using Node.js (if you have it installed)**:
-   ```bash
+   # or
    npx serve .
    ```
 
 ### File Structure
 
 ```
-├── index.html              # Main homepage
-├── server.py              # Python server script for local development
+├── index.html              # Original homepage (requires external resources)
+├── simple.html             # Simplified, self-contained version (recommended)
+├── server.py              # Enhanced Python server with mock API responses
 ├── css/                   # Stylesheets
 │   ├── site.css          # Main site styles
 │   └── wcko.css          # Checkout styles
@@ -48,17 +52,26 @@ Last20 was a cleantech startup founded by siblings who developed an innovative s
 │   ├── languages-en_CA.js # Language files
 │   └── site.js           # Main site scripts
 ├── uploads/               # Website assets
-│   └── b/3cb2ec90-4516-11ee-bcb6-8d1772d0343d/
-│       └── favicon.png   # Site favicon
+│   └── b/                # Original image directories
+│       ├── 3cb2ec90.../favicon.png
+│       └── 590d76c8.../Last20_Logo_1693167311.png
 └── robots.txt            # Robots.txt file
 ```
 
 ## Features Archived
 
-- ✅ Homepage with company information
-- ✅ Basic styling and layout
+### Simple Version (simple.html) - Recommended
+- ✅ Clean, modern design preserving original branding
+- ✅ Company information and messaging
+- ✅ Responsive layout that works on all devices
+- ✅ Self-contained with no external dependencies
+- ✅ Fast loading and fully functional offline
+
+### Original Version (index.html)
+- ✅ Original Square Online structure preserved
 - ✅ Company logo and favicon
 - ✅ Meta tags and SEO information
+- ✅ Original CSS and JavaScript files
 - ⚠️  Limited JavaScript functionality (some features may not work offline)
 - ❌ External API calls and dynamic content
 
