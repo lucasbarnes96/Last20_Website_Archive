@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en_CA">
+<head>
+    <title>About | Last20</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <meta name="generator" content="Square Online">
+    <link rel="shortcut icon" type="image/x-icon" href="/uploads/b/3cb2ec90-4516-11ee-bcb6-8d1772d0343d/favicon.png">
+    <link rel="preload" href="https://cdn3.editmysite.com/app/website/css/site.9952352b8d1dd2ee0549.css" as="style">
+
+    <style>
+        .loading-view {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            position: fixed;
+            top: 0;
+            left: 0;
+            z-index: 100;
+        }
+
+        .loading-container {
+            width: 62px;
+            height: 54px;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-gap: 12px;
+        }
+
+        @media (min-width: 840px) {
+            .loading-container {
+                width: 72px;
+                height: 54px;
+                grid-gap: 12px;
+            }
+        }
+
+        .dot-container {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(#00000020, #000000);
+            /* Base64 encoded simple circle SVG /resources/assets/js/prime/src/site/components/ui/circle.svg */
+            mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xIC0xIDIgMiI+Cgk8Y2lyY2xlIHI9IjEiLz4KPC9zdmc+Cg==');
+            -webkit-mask-image: url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xIC0xIDIgMiI+Cgk8Y2lyY2xlIHI9IjEiLz4KPC9zdmc+Cg==');
+            mask-repeat: no-repeat;
+            -webkit-mask-repeat: no-repeat;
+            mask-size: 100% auto;
+            -webkit-mask-size: 100% auto;
+            mask-position: bottom;
+            -webkit-mask-position: bottom;
+            animation: loading-view-movement;
+            animation-delay: 0s;
+            animation-duration: 3750ms;
+            animation-iteration-count: infinite;
+            animation-timing-function: cubic-bezier(0.8, 0, 0.8, 1);
+        }
+
+        .dot-container:nth-of-type(2) {
+            animation-delay: 130ms;
+        }
+
+        .dot-container:nth-of-type(3) {
+            animation-delay: 260ms;
+        }
+
+        @keyframes loading-view-movement {
+            /* up and down for 3s, stop for 750ms */
+            0%, 27%, 54% {
+                mask-position: bottom;
+                -webkit-mask-position: bottom;
+            }
+
+            14%, 41%, 68% {
+                mask-position: top;
+                -webkit-mask-position: top;
+            }
+
+            27%, 54%, 81%, 100% {
+                mask-position: bottom;
+                -webkit-mask-position: bottom;
+            }
+        }
+    </style>
+
+    
+                        
+            
+    
+        <script defer src="https://cdn3.editmysite.com/app/checkout/assets/checkout/system.c3b89b0b94f4ef0671b1.js" data-cookieconsent="ignore"></script>
+    
+    
+        <script type="systemjs-importmap" src="https://cdn3.editmysite.com/app/checkout/assets/checkout/imports.en.9a64958213b813e3.js" data-cookieconsent="ignore"></script>
+    
+    
+            <script type="systemjs-importmap" src="https://cdn3.editmysite.com/app/checkout/assets/checkout/locale-imports-map.6bf6d5436dcaf7b0.json" data-cookieconsent="ignore"></script>
+    
+    
+    <script defer type="text/javascript" src="https://cdn3.editmysite.com/app/website/js/runtime.fb193df94150c95a5494.js" data-cookieconsent="ignore"></script>
+    <script defer type="text/javascript" src="https://cdn3.editmysite.com/app/website/js/vue-modules.4a41b3ba298bf4563d97.js" data-cookieconsent="ignore"></script>
+    <script defer type="text/javascript" src="https://cdn3.editmysite.com/app/website/js/languages/en_CA.9d63eeb98eaf9f3c9f79.js" data-cookieconsent="ignore"></script>
+    <script defer type="text/javascript" src="https://cdn3.editmysite.com/app/website/js/site.2de40e2dda9556bbc89a.js" data-cookieconsent="ignore"></script>
+
+        <meta name="description" content="About Last20: Plastic infused pavement for a sustainable future. Meet our founders, explore our solution, learn about our vision.">
+    
+    <meta property="og:title" content="About | Last20" />
+                <meta property="og:site_name" content="Last20" />
+                <meta property="og:description" content="About Last20: Plastic infused pavement for a sustainable future. Meet our founders, explore our solution, learn about our vision." />
+                    <meta property="og:url" content="https://www.last20.ca/about" />
+        <meta property="og:type" content="website" />
+    
+    <script data-cookieconsent="ignore">
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+    </script>
+
+            <!-- Global Site Tag (gtag.js) - Google Analytics -->
+	<script async="async" data-cookieconsent="statistics, marketing" src="https://www.googletagmanager.com/gtag/js?id=G-EBLZY34687">
+    
+</script>
+<script data-cookieconsent="statistics">
+    window.dataLayer = window.dataLayer || [];
+	function gtag(){dataLayer.push(arguments);}
+	// Note we don't include the gtag config here as it's triggered in PublishedApp.vue
+	// and would otherwise cause double page view events on load
+	gtag('js', new Date());
+	gtag('set', 'developer_id.dOTM2Yj', true)
+</script>
+
+
+
+    
+    <!--square-online-feature-flags-->
+<script type="application/javascript" data-cookieconsent="ignore" data-role="square-online-featureflags">
+    window.__DYNAMIC_BOOTSTRAP__ ??= {};
+
+    Object.assign(window.__DYNAMIC_BOOTSTRAP__, {
+        featureFlags: {"ecom.website.deprecated-layouts":false,"marketing-enable-drive-repeat-purchase-campaign":true,"ecom.website.facebook-food":true,"ecom.website.theme-export":false,"ecom.website.chamber-via-fastly":true,"ecom.square-online-published-catalog-cache-version":"2023-11-13","ecom.checkout.open_tabs":true,"ecom.website.photo-reviews":true,"ecom.checkout.cmi-sentry-integration":true,"ecom.checkout.cmi.bootstrap-tracking-snowplow":true,"ecom.checkout.cmi.bootstrap-tracking-ga":true,"ecom.website.order-confirmation-page.website-redirect":true,"ecom.checkout.cmi.locale-view-splitting":true,"ecom.checkout.open_tabs_gc_coupon":true,"ecom.cmi-cart":true,"ecom.checkout.cmi.theme-fonts":false,"ecom-fulfillment-api-v-2":false,"ecom.omnichannel-discounts-frontend":true,"ecom.omnichannel-discounts-category-api":false,"ecom-improved-tipping-experience":true,"ecom.splash.loyalty":false,"ecom.website.published-site.datadog-rum":true,"ecom.website.editor.datadog-rum":true,"ecom-website-published-site-datadog-rum-bot-filter":true,"ecom-use-tracking-inventory":true,"ecom.image-controls.width-fix":true,"ecom.gradient-backgrounds":true,"ecom.website.form-fraud-blocking":true,"ecom.website.form-fraud-auto-ban":true,"ecom.website.code-editor":false,"ecom.shopping.pdp-layouts-m1":true,"ecom.chamber.subscriptions":true,"ecom.tuba.subscriptions-paid-shipping-rates":true,"ecom-cko-enhanced-logging":true,"ecom-cko-unified-logging":true,"ecom.shopping.so-coupons-sunset-integrations":true,"ecom.order-online-text-layouts":true,"ecom.appointment-improvements":true,"ecom.appointment-improvements-m2":true,"ecom.tuba.committed-inventory-m1":true,"ecom.splash-improvements":true,"ecom-themes-onboarding":true,"ecom.shopping.featured-categories-paid-layouts":true,"ecom.website.ai-text.short-form":false,"ecom.website.ai-text.long-form":false,"ecom.website.metered-request.override":false,"ecom.website.async-create-theme":false,"ecom.chamber.spi.serve-items":true,"ecom.can_use_cart_sharing":true,"ecom.website.ai.editor-prototype":false,"ecom.website.ai.page-seo":false,"ecom.appointment-direct-booking":true,"ecom-service-cutover-fe-request-augmentations":true,"ecom.catalog.so-item-library-deprecation-3":true,"ecom.kiosk-photo-card":true,"ecom-compare-item-availabilities":true,"ecom-use-item-availabilities":true,"ecom.website.system-page.cart":false,"ecom-enable-kiosk-large-catalog-layout":false,"ecom-hide-instagram":false,"ecom-enable-kiosk-item-preloading":true,"ecom-brand-api-sync":true,"ecom.service-cutover.enable-tuba-traffic":true,"ecom-show-order-online":true,"ecom-website-combos":false,"websdk-use-new-afterpay-buttons":false,"ecom-checkout-should-check-is-decouple-checkout":true,"ecom-prime-use-store-info-v29":true,"ecom-checkout-decouple-open-tabs":true,"ecom-checkout-force-pci-compliance":false,"ecom-website-hide-food-beverage-themes":false,"ecom-orbit-to-monochrome":false,"ecom-combos-coalescing":false,"ecom-website-fix-dine-in-location-selection":true,"ecom-use-category-ids":true},
+    });
+</script>
+<!--end-square-online-feature-flags-->
+
+    <script type="application/javascript" data-cookieconsent="ignore">
+        window.__BOOTSTRAP_STATE__ = {"siteData":{"site":{"id":"3cb2ec90-4516-11ee-bcb6-8d1772d0343d","properties":{"classicSiteID":"649027190430403683","catalogSiteId":"649027190430403683","selectedVertical":"other","verticalV4":"home-goods-shop","language":"en_CA","squareMerchantId":"MLWBWZ2JQ8WG1","siteCatalogVersion":"e02e7af3-4b93-415e-adb7-15a1d9638c4b","appSiteCartNativePayControlGroup":false,"appSiteCartNativePayTestGroup":false,"isKioskSite":false,"squareSyncUserId":"9bb2a72b-9397-4196-89f8-961410541a9b","isServiceCutoverEnabled":true,"blockFtux":{"blog-header":["ftux-alert"]},"onboarded":{"guidance":{"version":"1","complete":true,"welcomeComplete":true,"instagramMiniSiteTipDismissed":false,"ostEditSitePreviewTipDismissed":false,"guidanceMobileTrafficDismissedCount":0},"backendOnboarding":true,"isSiteDesignOnboarded":true,"isScrollingTextTipDismissed":true,"isVideoBannerAnnouncementDismissed":true,"isScrollingTextAnnouncementDismissed":true,"isCustomizationDiscoverabilityDismissed":true},"publishedAt":1700852194,"completedFtux":{"INSTAGRAM_FEATURE_EXPLAINED":true},"site_versions":{"editor":{"v0":"3cf7b9c0-4516-11ee-b4a2-173f4b867193","v1":"d57c17c0-4520-11ee-b9a0-531e01c8b254","v2":"d5865340-4520-11ee-8b95-831f1343e314","v3":"d590bc30-4520-11ee-bc29-ef172798354f","v4":"d59d5150-4520-11ee-abdf-8fba6ec52819","v5":"d5a75650-4520-11ee-87d9-ab686fe58374","v6":"d5af78c0-4520-11ee-919a-2facfc31f9ee","v7":"d5b76240-4520-11ee-b3e1-7579358be4c1","v8":"f10f9560-81aa-11ee-b07a-b1d9e3cf51b9"},"published":{"v7":"9ec79240-4525-11ee-b314-0f8c2ea9384e","v8":"bea381a0-6498-11ee-8e87-9def79041e4f"}},"websiteNotices":{"siteSettingsTrial":true},"siteIconSettings":{"disabled":true,"updatedAt":1700494652,"splash_images":{"config":{"size":"2048","radius":0,"fontPath":"\/var\/www\/public\/static\/fonts\/Inter\/inter-v13-latin-800.woff","iconType":"free","imageUrl":null,"language":"en_CA","siteTitle":"Last20","customColor":"#000000","primaryColor":"#000000","contrastColor":"#ffffff"},"2048x4435":"\/uploads\/b\/3cb2ec90-4516-11ee-bcb6-8d1772d0343d\/splash_2048x4435_Mjk1Nj.jpg"},"ios_icon_images":{"config":{"size":"180","radius":0,"fontPath":"\/var\/www\/public\/static\/fonts\/Inter\/inter-v13-latin-800.woff","iconType":"free","imageUrl":null,"language":"en_CA","siteTitle":"Last20","customColor":"#000000","primaryColor":"#000000","contrastColor":"#ffffff"},"180x180":"\/uploads\/b\/3cb2ec90-4516-11ee-bcb6-8d1772d0343d\/icon_180x180_ios_MzkxNz.png"},"android_icon_images":{"config":{"size":"512","radius":256,"fontPath":"\/var\/www\/public\/static\/fonts\/Inter\/inter-v13-latin-800.woff","iconType":"free","imageUrl":null,"language":"en_CA","siteTitle":"Last20","customColor":"#000000","primaryColor":"#000000","contrastColor":"#ffffff"},"512x512":"\/uploads\/b\/3cb2ec90-4516-11ee-bcb6-8d1772d0343d\/icon_512x512_android_MzUyMT.png"}},"selectedDeviceView":"desktop","order_fulfillment_guides":"shipping","domain":{"custom_domain":"www.last20.ca","subdomain":"last20inc.square.site","site_id":649027190430403683}}},"pagesMeta":[{"id":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0","name":"About","route":"about","title":"About-1","featureType":null,"description":"","hidden":false},{"id":"2fd073e0-8afb-11ee-b45d-ebe731055b63","name":"Contact","route":"contact","title":"Contact Us","featureType":null,"description":"","hidden":false},{"id":"2fd2fe20-8afb-11ee-a336-15bf5e2309a2","name":"Home","route":"home","title":"Home","featureType":null,"description":"","hidden":false},{"id":"2fcee770-8afb-11ee-ba0f-bd9322930dcc","name":"Learn","route":"learn","title":"Learn","featureType":null,"description":"","hidden":false},{"id":"2fd131a0-8afb-11ee-90fd-7ddde8da3525","name":"Partners","route":"partners","title":"Partners","featureType":null,"description":"","hidden":false},{"id":"2fd20740-8afb-11ee-bd0a-7fdf5aacafba","name":"Projects","route":"projects","title":"PROJECTS","featureType":null,"description":"","hidden":false}],"customPagesMeta":[],"artifactsMeta":[],"snapshot":{"id":"2fcdd0e0-8afb-11ee-ba37-c55fd30b8387","site_id":"3cb2ec90-4516-11ee-bcb6-8d1772d0343d","properties":{"seo":{"page":{"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0":{"title":"About","description":"About Last20: Plastic infused pavement for a sustainable future. Meet our founders, explore our solution, learn about our vision."},"2fd073e0-8afb-11ee-b45d-ebe731055b63":{"title":"Contact","description":"Connect with Last20: Explore collaboration and learn more about our vision."},"2fd131a0-8afb-11ee-90fd-7ddde8da3525":{"title":"Partners","description":"Connect with Last20's Key Enablers: Strategic partners, supporters, and collaborators fueling our startup success."},"2fd20740-8afb-11ee-bd0a-7fdf5aacafba":{"title":"Projects","description":"Explore Last20's Plastic Pavement Achievements: Sustainable projects and impactful collaborations for an innovative future."},"2fd2fe20-8afb-11ee-a336-15bf5e2309a2":{"title":"Plastic Pavement","description":"Last20: Upcycling plastic into pavement. Canadian clean-tech innovators paving the way to a sustainable future!"}},"template":{"storiesOverview":{"title":"News","description":"Stay updated on Last20's pioneering plastic pavement innovations. Join us in building a sustainable future, one road at a time!"}}},"logo":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/Last20_Logo_1693167311.png","color":{"primaryColor":"#000000","colorProfiles":[{"id":"custom-profile","link":"--primary-color","name":"Custom","label":"--primary-subtle-light","title":"--primary-subtle-light","paragraph":"--primary-color","background":"--gray-dark","buttonOutline":"--primary-color","buttonFilledBg":"--primary-color","buttonFilledText":"--primary-contrast-color"},{"id":"primary-light-bold","label":"--primary-subtle-dark","title":"--primary-subtle-dark"},{"id":"primary-bold","background":"--gray-light-two"},{"id":"primary-muted-bold","label":"--color-secondary-JHfvqM","title":"--color-secondary-JHfvqM","background":"--gray-light-one"},{"id":"primary-dark-bold","label":"--color-secondary-JHfvqM","title":"--color-secondary-JHfvqM","buttonFilledBg":"--color-secondary-JHfvqM"}],"secondaryColors":[{"id":"--color-secondary-minimal-black-NGYLvJ","value":"#000000"},{"id":"--color-secondary-aOomTt","value":"#ffffff"},{"id":"--color-secondary-JHfvqM","value":"#25abe2"}],"siteColorProfile":"primary-bold"},"fonts":{"fontSize":{"scale":1.15,"baseSize":20}},"icons":{"preset":"square"},"title":"Last20","shapes":{"cardBorderRadius":"8px","badgeBorderRadius":"20px","imageBorderRadius":"0px","buttonBorderRadius":"100px","defaultBorderRadius":"8px"},"social":[{"icon":"email","user":"info@last20.ca","selected":true},{"icon":"facebook","user":"last20pavement","selected":true},{"icon":"instagram","user":"last20pavement","selected":true},{"icon":"linkedin","user":"company\/last20pavement\/","selected":true},{"icon":"pinterest","user":"","selected":false},{"icon":"snapchat","user":"","selected":false},{"icon":"tiktok","user":"last20pavement","selected":true},{"icon":"twitter","user":"","selected":false},{"icon":"vimeo","user":"","selected":false},{"icon":"yelp","user":"","selected":false},{"icon":"youtube","user":"@last20pavement","selected":true}],"favicon":"\/uploads\/b\/3cb2ec90-4516-11ee-bcb6-8d1772d0343d\/favicon.png","fontset":{"name":"sqmarket","version":"0.1.0","overrides":{}},"spacing":{"siteWidth":3200,"siteMargin":20},"fontPair":{"id":"square-market"},"homePage":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0","homepage":{"type":"page","typeID":"2fd2fe20-8afb-11ee-a336-15bf5e2309a2"},"routeMap":{"":"2fd2fe20-8afb-11ee-a336-15bf5e2309a2","home":"2fd2fe20-8afb-11ee-a336-15bf5e2309a2","about":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0","learn":"2fcee770-8afb-11ee-ba0f-bd9322930dcc","contact":"2fd073e0-8afb-11ee-b45d-ebe731055b63","partners":"2fd131a0-8afb-11ee-90fd-7ddde8da3525","projects":"2fd20740-8afb-11ee-bd0a-7fdf5aacafba"},"styleset":{"name":"square","version":"0.1.0"},"trackers":{"googleAnalyticsID":"G-EBLZY34687"},"framework":{"name":"birdseye","version":"0.1.0"},"onboarded":false,"openGraph":{"page":{"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0":{"title":"About","description":"About Last20: Plastic infused pavement for a sustainable future. Meet our founders, explore our solution, learn about our vision."},"2fd073e0-8afb-11ee-b45d-ebe731055b63":{"title":"Contact","description":"Connect with Last20: Explore collaboration and learn more about our vision."},"2fd131a0-8afb-11ee-90fd-7ddde8da3525":{"title":"Partners","description":"Connect with Last20's Key Enablers: Strategic partners, supporters, and collaborators fueling our startup success."},"2fd20740-8afb-11ee-bd0a-7fdf5aacafba":{"title":"Projects","description":"Explore Last20's Plastic Pavement Achievements: Sustainable projects and impactful collaborations for an innovative future."},"2fd2fe20-8afb-11ee-a336-15bf5e2309a2":{"title":"Plastic Pavement","description":"Last20: Upcycling plastic into pavement. Canadian clean-tech innovators paving the way to a sustainable future!"}},"template":{"storiesOverview":{"title":"News","description":"Stay updated on Last20's pioneering plastic pavement innovations. Join us in building a sustainable future, one road at a time!"}}},"redirects":[],"blocksMeta":{"385997c1-87da-11ee-97d4-3368b0be2f52":"kXTihZ","3cf8f610-4516-11ee-9d73-5b4d18b8b976":"nbhsGQ","3cf8f611-4516-11ee-9d73-5b4d18b8b976":"uQTUOP","3cf8f612-4516-11ee-9d73-5b4d18b8b976":"vaDHBd","3cf8f613-4516-11ee-9d73-5b4d18b8b976":"mxSKAF","3cf8f614-4516-11ee-9d73-5b4d18b8b976":"vISJHu","3da9a871-4516-11ee-9d73-5b4d18b8b976":"MwPxzJ","3f55b181-8271-11ee-bd18-17027de7b128":"FupHcE","3fd865b1-87b9-11ee-a357-37e3f98ea0aa":"kKiGWL","401e2141-87b9-11ee-a357-37e3f98ea0aa":"DplJIm","40315821-87da-11ee-97d4-3368b0be2f52":"mgsaeJ","4dd31ae1-8271-11ee-bd18-17027de7b128":"hPWokN","6168f4c1-87db-11ee-97d4-3368b0be2f52":"naqFkA","86047b21-8271-11ee-bd18-17027de7b128":"mwjKVY","9d7e0760-8a16-11ee-afba-17b62b61db13":"PxOEvQ","b1e6f921-4518-11ee-91a8-796ce0d87685":"idskpK","ecbfbd81-87c5-11ee-97d4-3368b0be2f52":"IODrjw","ed1caa91-87c5-11ee-97d4-3368b0be2f52":"ABPSrU"},"components":{"badges":{"styles":{"primary":{"color":"#000000","shape":{"label":"pill"},"fillStyle":"fill"},"secondary":{"shape":{"label":"rounded"},"fillStyle":"outline"}}}},"navigation":[{"link":{"storiesOverview":true},"type":"storiesOverview","title":"News","children":[],"expanded":true},{"link":{"page":{"pageID":"2fd20740-8afb-11ee-bd0a-7fdf5aacafba"}},"type":"page"},{"link":{"page":{"pageID":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0"}},"type":"page","children":[]}],"textStyles":{"body":{"url":null,"fontId":"inter","weight":"400","fontName":"Inter","provider":"google","fontFormat":null,"lineHeight":1.3,"letterSpacing":0},"label":{"url":null,"fontId":"inter","weight":"500","fontName":"Inter","provider":"google","fontFormat":null,"lineHeight":1.1,"letterSpacing":0.01},"title":{"url":null,"fontId":"inter","weight":"800","fontName":"Inter","provider":"google","fontFormat":null,"lineHeight":1.1,"letterSpacing":-0.01},"headline":{"url":null,"fontId":"inter","weight":"800","fontName":"Inter","provider":"google","fontFormat":null,"lineHeight":1.1,"letterSpacing":-0.02}},"buttonstyle":"squared","customFonts":[],"featuresets":["retail","blogOverview"],"themePreset":{"id":"sharp-light-white-black","savedAt":1693167277774},"contentAreas":{"cart":{"id":"3d14e282-4516-11ee-9d73-5b4d18b8b976","hidden":false,"content":{"id":"3cf8f613-4516-11ee-9d73-5b4d18b8b976","type":"block","layout":"cart-1","purpose":"cart@^1.3.6","elements":[{"id":"3d14bb78-4516-11ee-9d73-5b4d18b8b976","purpose":"text","properties":{}}],"properties":{"shortID":"mxSKAF"}}},"footer":{"id":"3d7f1608-4516-11ee-9d73-5b4d18b8b976","hidden":false,"content":{"id":"3cf8f610-4516-11ee-9d73-5b4d18b8b976","type":"block","hidden":false,"layout":"footer-7","purpose":"footer","elements":[{"id":"3d7f1604-4516-11ee-9d73-5b4d18b8b976","purpose":"logo","properties":{"type":"logo","hidden":false}},{"id":"3d7f1605-4516-11ee-9d73-5b4d18b8b976","purpose":"text","properties":{"hidden":true}},{"id":"3d7f1606-4516-11ee-9d73-5b4d18b8b976","purpose":"social","properties":{}},{"id":"3d7f1603-4516-11ee-9d73-5b4d18b8b976","purpose":"cookie-management-settings","properties":{}},{"id":"3d7f1607-4516-11ee-9d73-5b4d18b8b976","purpose":"newsletter","properties":{"type":"subscription","fields":[{"id":"3d14bb7a-4516-11ee-9d73-5b4d18b8b976","type":"action-input","label":"","required":true,"properties":{},"instructions":""}],"hidden":true,"schema":{"id":"3d14bb7b-4516-11ee-9d73-5b4d18b8b976","hash":"e79153146ad53a57b6c6a282c9b67616"}}}],"properties":{"shortID":"nbhsGQ","background":{"type":"default"},"navigation":{"hidden":false,"SITE_NAV":[{"link":{"storiesOverview":true},"type":"storiesOverview","title":"News"},{"link":{"page":{"pageID":"2fd20740-8afb-11ee-bd0a-7fdf5aacafba"}},"type":"page","title":"Projects","children":[]},{"link":{"page":{"pageID":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0"}},"type":"page","title":"About","children":[],"expanded":false},{"link":{"page":{"pageID":"2fcee770-8afb-11ee-ba0f-bd9322930dcc"}},"type":"page","children":[]},{"link":{"page":{"pageID":"2fd131a0-8afb-11ee-90fd-7ddde8da3525"}},"type":"page","title":"Partners","children":[]},{"link":{"page":{"pageID":"2fd073e0-8afb-11ee-b45d-ebe731055b63"}},"type":"page","title":"Contact","children":[],"expanded":true}],"shouldCopyHeader":false},"colorProfile":"primary-bold","newsletterTitle":{"hidden":true}}}},"header":{"id":"3d14e280-4516-11ee-9d73-5b4d18b8b976","hidden":false,"content":{"id":"3cf8f611-4516-11ee-9d73-5b4d18b8b976","type":"block","hidden":false,"layout":"header-4","purpose":"header","elements":[{"id":"3d14bb70-4516-11ee-9d73-5b4d18b8b976","purpose":"logo","properties":{"type":"logo"}},{"id":"3d14bb71-4516-11ee-9d73-5b4d18b8b976","purpose":"social","properties":{}},{"id":"3d14bb72-4516-11ee-9d73-5b4d18b8b976","purpose":"navigation","properties":{"config":{"color":"var(--gray-dark)"},"hidden":false,"uppercase":true}},{"id":"3d14bb73-4516-11ee-9d73-5b4d18b8b976","purpose":"hamburger","properties":{}},{"id":"3d14bb74-4516-11ee-9d73-5b4d18b8b976","purpose":"cart","properties":{"hidden":true}}],"properties":{"shortID":"uQTUOP","textAlign":"","background":{"type":"default"},"actionButton":{"hidden":true,"presetStyle":"secondary"},"colorProfile":"primary-light-bold","disableSearch":false}}},"navMobile":{"id":"3d14e281-4516-11ee-9d73-5b4d18b8b976","hidden":false,"content":{"id":"3cf8f612-4516-11ee-9d73-5b4d18b8b976","type":"block","layout":"navigation-mobile","purpose":"nav-mobile@^1.2.1","elements":[{"id":"3d14bb75-4516-11ee-9d73-5b4d18b8b976","purpose":"navigation","properties":{}},{"id":"3d14bb76-4516-11ee-9d73-5b4d18b8b976","purpose":"close","properties":{}},{"id":"3d14bb77-4516-11ee-9d73-5b4d18b8b976","purpose":"social","properties":{}}],"properties":{"shortID":"vaDHBd"}}},"freeFooter":{"id":"3d14e283-4516-11ee-9d73-5b4d18b8b976","hidden":false,"content":{"id":"3cf8f614-4516-11ee-9d73-5b4d18b8b976","type":"block","layout":"free-footer-1","purpose":"free-footer@^1.0.0","elements":[],"properties":{"bgColor":"light","shortID":"vISJHu"}}}},"pageOverrides":{},"pageTemplates":{"story":"2fd45210-8afb-11ee-8089-8118df1f3f95","product":"2fd78830-8afb-11ee-93a3-170f92c9bc67","shopAll":"2fd6def0-8afb-11ee-9f6a-15b64c10f874","category":"2fd6def0-8afb-11ee-9f6a-15b64c10f874","leaveReview":"2fd59750-8afb-11ee-a8a0-d571c3f891c9","orderOnline":"2fd658b0-8afb-11ee-b2de-4b13817d3c2f","instagramFeed":"2fd4f6c0-8afb-11ee-b9ea-21f5d6607377","searchResults":"2fd6def0-8afb-11ee-9f6a-15b64c10f874","storiesOverview":"2fd3afc0-8afb-11ee-824e-59b8843eafad"},"componentStyles":{"buttons":{"primary":{"shape":{"label":"pill","value":"100px"},"border":{"size":2,"color":"#212121"},"shadow":{"blur":0,"color":"#212121","active":false,"spread":0,"vertical":6,"horizontal":0},"fillColor":"#ffffff","fillStyle":"fill"}}}},"version":8},"user":{"id":146813105,"properties":{"isSquareSyncUser":true,"country":"CA"}},"billingFeatures":{"billingFeatures":{"embed_restricted_widgets":false,"com_gifting":true,"com_authorizenet_payment":false,"com_digital_products":true,"com_coupons":true,"com_product_reviews":false,"com_product_limit":-1,"popup_announcement":true,"popup_coupons":true,"popup_lead_capture":true,"community_support":true,"free_ssl_security":true,"custom_domain_connection":true,"advanced_site_stats":true,"password_protection":false,"video_backgrounds":true,"hd_video_and_audio":true,"membership_registration":true,"membership_settings":true,"online_store":true,"accept_paypal_payments":true,"product_badges":true,"product_modifiers":true,"in_store_pickup":true,"shipping_calculator":true,"chat_and_email_support":true,"phone_support":true,"priority_support":true,"advanced_ecommerce_stats":true,"seo":true,"unlimited_storage":true,"members":-1,"abandoned_cart_emails":false,"integrated_shipping_labels":true,"tax_calculator":true,"no_weebly_ads":true,"site_search":true,"product_search":true,"square_gift_cards":true,"inventory_management":true,"integrated_facebook_ads":true,"real_time_shipping_calculator":false,"age_confirmation":true,"square_processing_rate_id":"ECOM_SOS_PROFESSIONAL","square_processing_rate_display":{"USD":[{"percent":"2.9","flat":30,"type":"all"}],"AUD":[{"percent":"2.2","flat":0,"type":"all"}],"CAD":[{"percent":"2.8","flat":30,"type":"all"}],"EUR":[{"percent":"1.4","flat":25,"type":"intra-eu"},{"percent":"2.9","flat":25,"type":"non-eu"}],"GBP":[{"percent":"1.4","flat":25,"type":"intra-eu"},{"percent":"2.5","flat":25,"type":"non-eu"}],"JPY":[{"percent":"3.6","flat":0,"type":"non-jcb"},{"percent":"3.6","flat":0,"type":"jcb"}]},"favicon_customization":true,"site_code_customization":false,"instagram_feed_tagging":true,"quick_shop":true,"scheduleEnabled":false,"smartGroupsEnabled":false,"socialAdsEnabled":true,"lifetimeEmails":2,"emailsPerMonth":2,"recipientsPerEmail":500,"recipientsPerMonth":1000,"automations":0,"automatedRecipientsPerMonth":0,"enabledLeadFormTypes":["popup"],"allowsPurchasingCredits":false,"insights_overview":false,"insights_sales":false,"insights_products":true,"custom_fonts":true,"com_shipping_settings":true,"com_manage_gift_cards":true,"com_create_shipping_label_discount":true,"customer_accounts":true,"com_stripe_payment":false,"com_product_sync":true,"com_product_variant_limit":-1,"com_shipping_labels_tier":"weebly_cpp_tier","com_transaction_fee":"0.00","form_file_upload":true,"product_scheduled_actions":false,"custom_site_icon":true,"video_uploading":0,"buyer_customer_accounts":false,"personalized_order_screen":true,"personalized_recommendations":true,"easy_reordering":true,"self_serve_ordering":false,"ecom_preorders":false,"order_text_alerts":false,"time_based_categories":false,"advanced_order_limits":false,"modifier_images":false,"free_fulfillment_meter":false,"spd_fees_amount":0,"twenty_four_seven_support":false,"advanced_design_controls":false,"order_item_quantity_limit":false,"stock_media":false,"so_buyer_subscriptions":false,"item_badge_customization":false,"shop_all_item_layouts":false,"icon_sets":false,"banner_slides":false,"priority_phone_support":false,"pdp_layouts":false,"full_height_banners":false,"scrolling_text":false,"featured_item_layouts":false,"mega_menu":false,"appts_customization":false,"premium_text_image_layout":false,"featured_category_layouts":false,"ai_generated_content":false,"image_shapes":false,"group_ordering":false,"inventory_bundles":false,"com_square_transaction_best_discount":false},"isTrial":false},"siteFeatures":{"embed_restricted_widgets":false,"com_gifting":true,"com_authorizenet_payment":false,"com_digital_products":true,"com_coupons":true,"com_product_reviews":false,"com_product_limit":-1,"popup_announcement":true,"popup_coupons":true,"popup_lead_capture":true,"community_support":true,"free_ssl_security":true,"custom_domain_connection":true,"advanced_site_stats":true,"password_protection":false,"video_backgrounds":true,"hd_video_and_audio":true,"membership_registration":true,"membership_settings":true,"online_store":true,"accept_paypal_payments":true,"product_badges":true,"product_modifiers":true,"in_store_pickup":true,"shipping_calculator":true,"chat_and_email_support":true,"phone_support":true,"priority_support":true,"advanced_ecommerce_stats":true,"seo":true,"unlimited_storage":true,"members":-1,"abandoned_cart_emails":false,"integrated_shipping_labels":true,"tax_calculator":true,"no_weebly_ads":true,"site_search":true,"product_search":true,"square_gift_cards":true,"inventory_management":true,"integrated_facebook_ads":true,"real_time_shipping_calculator":false,"age_confirmation":true,"square_processing_rate_id":"ECOM_SOS_PROFESSIONAL","square_processing_rate_display":{"USD":[{"percent":"2.9","flat":30,"type":"all"}],"AUD":[{"percent":"2.2","flat":0,"type":"all"}],"CAD":[{"percent":"2.8","flat":30,"type":"all"}],"EUR":[{"percent":"1.4","flat":25,"type":"intra-eu"},{"percent":"2.9","flat":25,"type":"non-eu"}],"GBP":[{"percent":"1.4","flat":25,"type":"intra-eu"},{"percent":"2.5","flat":25,"type":"non-eu"}],"JPY":[{"percent":"3.6","flat":0,"type":"non-jcb"},{"percent":"3.6","flat":0,"type":"jcb"}]},"favicon_customization":true,"site_code_customization":false,"instagram_feed_tagging":true,"quick_shop":true,"scheduleEnabled":false,"smartGroupsEnabled":false,"socialAdsEnabled":true,"lifetimeEmails":2,"emailsPerMonth":2,"recipientsPerEmail":500,"recipientsPerMonth":1000,"automations":0,"automatedRecipientsPerMonth":0,"enabledLeadFormTypes":["popup"],"allowsPurchasingCredits":false,"insights_overview":false,"insights_sales":false,"insights_products":true,"custom_fonts":true,"com_shipping_settings":true,"com_manage_gift_cards":true,"com_create_shipping_label_discount":true,"customer_accounts":true,"com_stripe_payment":false,"com_product_sync":true,"com_product_variant_limit":-1,"com_shipping_labels_tier":"weebly_cpp_tier","com_transaction_fee":"0.00","form_file_upload":true,"product_scheduled_actions":false,"custom_site_icon":true,"video_uploading":0,"buyer_customer_accounts":false,"personalized_order_screen":true,"personalized_recommendations":true,"easy_reordering":true,"self_serve_ordering":false,"ecom_preorders":false,"order_text_alerts":false,"time_based_categories":false,"advanced_order_limits":false,"modifier_images":false,"free_fulfillment_meter":false,"spd_fees_amount":0,"twenty_four_seven_support":false,"advanced_design_controls":false,"order_item_quantity_limit":false,"stock_media":false,"so_buyer_subscriptions":false,"item_badge_customization":false,"shop_all_item_layouts":false,"icon_sets":false,"banner_slides":false,"priority_phone_support":false,"pdp_layouts":false,"full_height_banners":false,"scrolling_text":false,"featured_item_layouts":false,"mega_menu":false,"appts_customization":false,"premium_text_image_layout":false,"featured_category_layouts":false,"ai_generated_content":false,"image_shapes":false,"group_ordering":false,"inventory_bundles":false,"com_square_transaction_best_discount":false},"featureset":{"pages":["category","shopAll","storiesOverview"],"quickShop":true,"search":true,"blocks":["featured-products"]},"page":{"id":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0","site_snapshot_id":"2fcdd0e0-8afb-11ee-ba37-c55fd30b8387","properties":{"name":"About","route":"about","title":"About-1","hidden":false,"description":"","contentAreas":{"banner":{"id":"ecbfbd80-87c5-11ee-97d4-3368b0be2f52","hidden":true,"content":{"id":"ecbfbd81-87c5-11ee-97d4-3368b0be2f52","type":"block","layout":"banner-1","purpose":"banner@^1.1.0","elements":[{"id":"ecbfbd82-87c5-11ee-97d4-3368b0be2f52","purpose":"title-1","properties":{}},{"id":"ecbfbd83-87c5-11ee-97d4-3368b0be2f52","purpose":"image-1","properties":{}},{"id":"ecbfbd84-87c5-11ee-97d4-3368b0be2f52","purpose":"button-1","properties":{}}],"properties":{"styles":{"minHeight":"560px"},"shortID":"IODrjw","background":{"type":"default"}}}},"userContent":{"id":"ecbfbd85-87c5-11ee-97d4-3368b0be2f52","hidden":false,"content":{"id":"ecbfbd86-87c5-11ee-97d4-3368b0be2f52","type":"container","cells":[{"id":"ed1caa90-87c5-11ee-97d4-3368b0be2f52","type":"cell","content":{"id":"ed1caa91-87c5-11ee-97d4-3368b0be2f52","type":"block","layout":"about-us-landscape","purpose":"about-us@^1.0.0","properties":{"button":{"link":{"tab":false,"link":{"page":{"pageID":"2fcee770-8afb-11ee-ba0f-bd9322930dcc"}},"type":"page"},"label":"Learn\n","hidden":false},"shortID":"ABPSrU","background":{"type":"default"},"textConfig":{"content":{"quill":{"ops":[{"insert":"We create plastic-infused pavement using low-density polyethylene (LDPE). We are dedicated to reducing plastic waste and promoting sustainability in the construction industry.\n\nLast20 was founded by "},{"insert":"Lucas","attributes":{"wLink":{"tab":false,"link":{"external":"https:\/\/www.linkedin.com\/in\/lucasbarnes96\/"},"type":"external"}}},{"insert":" and "},{"insert":"Lauren","attributes":{"wLink":{"tab":false,"link":{"external":"https:\/\/www.linkedin.com\/in\/lauren-barnes\/"},"type":"external"}}},{"insert":", united by their passion for sustainability and innovation. Their journey is fueled by a commitment to revolutionize the pavement industry by upcycling plastic.\n\n"}]}}},"imageConfig":{"alt":"Lucas_Barnes_Lauren_Barnes_Last20_Founders","size":"small","image":{"id":"0758f990-87c6-11ee-97d4-3368b0be2f52","name":"Lucas_Lauren_Last20.jpg","width":749,"height":843,"source":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg","original":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/Lucas_Lauren_Last20_1700495983.jpg","sourceSet":{"400w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=400","800w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=800","1200w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=1200","1600w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=1600","2000w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=2000","2400w":"\/uploads\/b\/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc\/2023-11-20_11-58-56_1700499555.jpg?width=2400"},"focalPoint":{"x":0.5,"y":0.5},"attribution":{},"cropOptions":{"zoom":1.035,"center":{"x":0.4608,"y":0.3237},"realZoom":1.469,"rotation":0},"positionPoint":{"x":0.5,"y":0.4597}},"shape":null,"aspectRatio":"1_1"},"titleConfig":{"title":{"quill":{"ops":[{"insert":"Sustainable Innovation\n"}]}}},"colorProfile":""}}}]}}}}}},"storeInfo":{"merchant_id":"MLWBWZ2JQ8WG1","buyer_customer_accounts_enabled":false,"currency":"CAD","locale":"en_CA","language":"en_CA","syncing_disabled":true,"return_policy":null,"shipping_policy":null,"max_donation_amount":1000,"store_mode":"cart","payment_method_support":{"visa":true,"mastercard":true,"amex":true,"discover":true,"jcb":true,"interac":true,"paypal":false,"apple_pay":true,"google_pay":true,"cash_app":false,"square_pay":true},"show_pdp_buy_now_button":true,"allowed_to_sell":true,"accepting_orders":true,"has_payment_processor":true,"is_group_ordering_enabled":false,"product_reviews_enabled":false,"show_on_sale_section":true,"show_low_stock_section":true,"show_out_of_stock_section":true,"shipping_location_ids":["11ee45159ec07685949d3cecef6dbac6"],"fulfillment_support":{"delivery":false,"pickup":false,"shipping":true,"dine_in":false,"manual":false,"digital":false},"seller_preferred_fulfillment":"delivery","locations_counts":{"pickup":0,"delivery":0,"dine_in":0,"pickup_or_delivery":0,"brick_and_mortar_fulfillment":0,"shipping":1,"total":1},"has_subscribable_items":false,"has_shippable_product":false,"has_time_based_categories":false,"product_setting_low_stock_threshold":5,"category_hierarchy_root_ids":{"site_category_id":null,"id":null}},"commerceLinks":{"products":{},"categories":{},"meta":{"pagination":{"products":[],"categories":{"per_page":2500,"current_page":1,"total_pages":1}}}},"autoNavLinks":[{"link":{"storiesOverview":true},"type":"storiesOverview","title":"News","children":[],"expanded":true},{"link":{"page":{"pageID":"2fd20740-8afb-11ee-bd0a-7fdf5aacafba"}},"type":"page"},{"link":{"page":{"pageID":"2fcfaee0-8afb-11ee-8b34-a3ccea50f1b0"}},"type":"page","children":[]}],"blogPostLinks":{"0":{"id":"b15d1380-8a0e-11ee-9ddb-b7f95a9861d3","slug":"paving-the-way-to-sustainability-upcycling-plastic-into-pavement","name":"Paving the way to sustainability: upcycling plastic into pavement","draft_id":"29f56d60-8a0e-11ee-9caf-3d1299d36c00"},"1":{"id":"50dcf220-8afa-11ee-a6b0-b95e0894c348","slug":"canadian-startup-tests-plastic-infused-asphalt-in-new-york","name":"Canadian startup tests plastic-infused asphalt in New York","draft_id":"fda5eaa0-8af9-11ee-b39e-9bb195e6a65b"},"2":{"id":"434e25e0-87ce-11ee-a53a-672c81c07110","slug":"canadian-startup-tests-plastic-infused-asphalt-at-biotech-site","name":"Canadian startup tests plastic-infused asphalt at biotech site","draft_id":"b9385780-87ca-11ee-9f11-878dd87b7a94"},"3":{"id":"4048eac0-87ca-11ee-b32b-4f45e3af30cc","slug":"siblings-create-groundbreaking-solution-to-plastic-waste","name":"Siblings create groundbreaking solution to plastic waste","draft_id":"d6555920-87c7-11ee-8fc2-8fa12762cb68"},"4":{"id":"434e88f0-87ce-11ee-ab74-5b27adb35f67","slug":"new-partnership-creates-international-innovation-opportunities-for-laurier-student-enterprises","name":"New partnership creates international innovation opportunities for Laurier student enterprises","draft_id":"cb90a950-87cc-11ee-819b-5f0bb8973a4c"},"5":{"id":"98155320-8af9-11ee-a7d6-3b2583421f4a","slug":"bcw-celebrates-innovators-at-win-showcase","name":"BCW Celebrates Innovators at WIN Showcase","draft_id":"fc4b3300-8af8-11ee-9d30-bd4e3ddf6b69"},"6":{"id":"974762a0-8a1a-11ee-851d-a3dd2e75eeb1","slug":"research-recap-recycling-roads","name":"Research Recap: Recycling Roads","draft_id":"27dd6650-8a1a-11ee-9985-f128ea301e57"},"7":{"id":"404984c0-87ca-11ee-b116-336905877724","slug":"yonkers-dpw-to-test-asphalt-made-with-recycled-plastics","name":"Yonkers DPW to Test Asphalt Made with Recycled Plastics","draft_id":"604774a0-81ac-11ee-8047-75e004fa10ec"},"8":{"id":"415be670-8a15-11ee-be1d-7fcf51d03539","slug":"lauriers-waterloo-enactus-team-representing-canada-named-runner-up-at-enactus-world-cup","name":"Laurier\u2019s Waterloo Enactus team representing Canada named runner-up at Enactus World Cup","draft_id":"5b1fbaf0-8a14-11ee-aa9f-b39cee19f391"},"9":{"id":"1cd104d0-8a0f-11ee-a2cb-9ba860c8e7e7","slug":"5-ecotokers-creators-who-talk-about-sustainability-to-follow-on-tiktok","name":"5 ecotokers (creators who talk about sustainability) to follow on TikTok","draft_id":"3ece1db0-87c9-11ee-8f4d-c3ad4922bf77"},"10":{"id":"404b56a0-87ca-11ee-b651-c3c3d4ada753","slug":"last20-founded-by-a-laurier-student-and-a-recent-grad-is-upcycling-plastic-garbage-into-innovative","name":"Last20, founded by a Laurier student and a recent grad, is upcycling plastic garbage into innovative","draft_id":"17378e20-826e-11ee-95a3-91bab82e3c78"}},"featureFlags":{"ecom.website.deprecated-layouts":false,"marketing-enable-drive-repeat-purchase-campaign":true,"ecom.website.facebook-food":true,"ecom.website.theme-export":false,"ecom.website.chamber-via-fastly":true,"ecom.square-online-published-catalog-cache-version":"2023-11-13","ecom.checkout.open_tabs":true,"ecom.website.photo-reviews":true,"ecom.checkout.cmi-sentry-integration":true,"ecom.checkout.cmi.bootstrap-tracking-snowplow":true,"ecom.checkout.cmi.bootstrap-tracking-ga":true,"ecom.website.order-confirmation-page.website-redirect":true,"ecom.checkout.cmi.locale-view-splitting":true,"ecom.checkout.open_tabs_gc_coupon":true,"ecom.cmi-cart":true,"ecom.checkout.cmi.theme-fonts":false,"ecom-fulfillment-api-v-2":false,"ecom.omnichannel-discounts-frontend":true,"ecom.omnichannel-discounts-category-api":false,"ecom-improved-tipping-experience":true,"ecom.splash.loyalty":false,"ecom.website.published-site.datadog-rum":true,"ecom.website.editor.datadog-rum":true,"ecom-website-published-site-datadog-rum-bot-filter":true,"ecom-use-tracking-inventory":true,"ecom.image-controls.width-fix":true,"ecom.gradient-backgrounds":true,"ecom.website.form-fraud-blocking":true,"ecom.website.form-fraud-auto-ban":true,"ecom.website.code-editor":false,"ecom.shopping.pdp-layouts-m1":true,"ecom.chamber.subscriptions":true,"ecom.tuba.subscriptions-paid-shipping-rates":true,"ecom-cko-enhanced-logging":true,"ecom-cko-unified-logging":true,"ecom.shopping.so-coupons-sunset-integrations":true,"ecom.order-online-text-layouts":true,"ecom.appointment-improvements":true,"ecom.appointment-improvements-m2":true,"ecom.tuba.committed-inventory-m1":true,"ecom.splash-improvements":true,"ecom-themes-onboarding":true,"ecom.shopping.featured-categories-paid-layouts":true,"ecom.website.ai-text.short-form":false,"ecom.website.ai-text.long-form":false,"ecom.website.metered-request.override":false,"ecom.website.async-create-theme":false,"ecom.chamber.spi.serve-items":true,"ecom.can_use_cart_sharing":true,"ecom.website.ai.editor-prototype":false,"ecom.website.ai.page-seo":false,"ecom.appointment-direct-booking":true,"ecom-service-cutover-fe-request-augmentations":true,"ecom.catalog.so-item-library-deprecation-3":true,"ecom.kiosk-photo-card":true,"ecom-compare-item-availabilities":true,"ecom-use-item-availabilities":true,"ecom.website.system-page.cart":false,"ecom-enable-kiosk-large-catalog-layout":false,"ecom-hide-instagram":false,"ecom-enable-kiosk-item-preloading":true,"ecom-brand-api-sync":true,"ecom.service-cutover.enable-tuba-traffic":true,"ecom-show-order-online":true,"ecom-website-combos":false,"websdk-use-new-afterpay-buttons":false,"ecom-checkout-should-check-is-decouple-checkout":true,"ecom-prime-use-store-info-v29":true,"ecom-checkout-decouple-open-tabs":true,"ecom-checkout-force-pci-compliance":false,"ecom-website-hide-food-beverage-themes":false,"ecom-orbit-to-monochrome":false,"ecom-combos-coalescing":false,"ecom-website-fix-dine-in-location-selection":true,"ecom-use-category-ids":true},"lightning":{},"datadog":{"publishedSite":{"service":"spi-ecom-square-online-buyer-journey","applicationId":"0a9b10e6-9671-4e1d-bd0b-2f283f0d29ee","clientToken":"pubc6e7a7143c494f34f1366112ef7c1e2c","env":"production","rum":{"sampleRate":100,"sessionReplaySampleRate":100,"traceSampleRate":10}}}};
+    </script>
+
+        
+    <script type="application/javascript" data-cookieconsent="ignore">
+        window.stopSiteLoadingAnimation = () => {
+            const loadingElement = document.querySelector('.loading-view');
+            loadingElement?.remove();
+        };
+    </script>
+
+    
+    <script type="application/javascript" data-cookieconsent="ignore">
+    /**
+     * PCI Compliance Flag
+     *
+     * This flag indicates if scripts have been filtered for PCI compliance (OpenTabs SSO Checkout route).
+     * This value is set only for buyer dashboard/site view to prevent infinite loading loops.
+     *
+     * Do NOT include this file in editor-frame.blade.php as it affects seller dashboard.
+     */
+    window.IS_PCI_SCRIPTS_FILTERED = false;
+</script>
+    <script type="application/javascript" data-cookieconsent="ignore">
+    // used for editor-frame and pub site bootstrap
+    window.APP_ENV = 'production';
+    window.APP_ORIGIN = 'https://square.online';
+    window.APP_URL = 'https://www.weebly.com';
+    window.ASSET_BASE = '/app/website';
+    window.ASSETS_PUBLIC_PATH = 'https://cdn3.editmysite.com/app/website/';
+    window.CMS_API_PATH ='/app/website/cms';
+    window.DEPRECATED_IMAGE_HOST = 'https://images.editor.website';
+    window.FRAME_ORIGIN = 'https://sandbox.square.online';
+    window.GENERATE_GOOGLE_MAP_BASE = 'https://www.editmysite.com';
+    window.IMAGE_HOST = 'https://590d76c8a6b7b845f013.cdn6.editmysite.com';
+    window.IS_DRAFT = false;
+    window.IS_MAGIC_MIRROR = false;
+    window.IS_THEME_PREVIEW = false;
+    window.IS_ENHANCED_PREVIEW = false;
+    window.DRAFT_ORIGIN = 'https://drafts.editmysite.com';
+    window.PUBLISHED_CMS_API_PREFIX = '/app/cms';
+    window.SENTRY_DSN = 'https://13e49d785d8d4f828038b6136f3b48ba@sentry.io/1263158';
+    window.RELEASE = 'prime-7202a15';
+    window.URL_BASE = '';
+    window.XSRF_COOKIE_NAME = 'publishedsite-xsrf';
+    window.FASTLY_URL_BASE = 'https://cdn5.editmysite.com';
+    window.SQUARE_WEB_PAYMENTS_SDK = 'https://web.squarecdn.com/v1/square.js'
+    window.PUBLIC_SQUARE_URL_BASE = 'squareup.com';
+    window.PUBLIC_SQUARE_APPTS_URL_BASE = 'app.squareup.com';
+    window.ENABLE_FRONTEND_LOCAL_DEV_CACHE = '';
+    window.GOOGLE_TAG_DEVELOPER_ID = 'developer_id.dOTM2Yj';
+    window.IS_SQUARE_GO = false;
+
+            window.IS_PUBLISHED_MAGIC_MIRROR = false;
+    
+    // state
+    window.SUBDOMAIN_BASE = 'square.site';
+
+</script>
+
+    <!--square-online-snowplow-->
+
+<script data-cookieconsent="statistics">
+    (function (p, l, o, w, i, n, g) {
+    var id = i + '-script';
+    if (!l.getElementById(i)) {
+        n = l.createElement(o);
+        g = l.getElementsByTagName(o)[0];
+        n.id = id;
+        n.async = 1;
+        n.src = w;
+        g.parentNode.insertBefore(n, g);
+    }
+})(window, document, "script", "https://cdn2.editmysite.com/js/wsnbn/snowday262.js", "snowday");
+</script>
+
+
+<script data-cookieconsent="ignore" data-role="square-online-snowplow">
+
+(function (p, l, o, w, i, n, g) {
+    if (!p[i]) {
+        p.GlobalSnowplowNamespace = p.GlobalSnowplowNamespace || [];
+        p.GlobalSnowplowNamespace.push(i);
+        p[i] = function () {
+            (p[i].q = p[i].q || []).push(arguments);
+        };
+        p[i].q = p[i].q || [];
+    }
+})(window, document, '', '', "snowday");
+
+var r = [99, 104, 101, 99, 107, 111, 117, 116, 46, 40, 119, 101, 101, 98, 108, 121, 124, 101, 100, 105, 116, 109, 121, 115, 105, 116, 101, 41, 46, 99, 111, 109];
+var snPlObR = function(arr) {
+    var s = '';
+    for (var i = 0 ; i < arr.length ; i++){
+        s = s + String.fromCharCode(arr[i]);
+    }
+    return s;
+};
+var s = snPlObR(r);
+
+var regEx = new RegExp(s);
+
+window._W = {
+    Analytics: {
+        trackers: {
+            wSP: snowday,
+        },
+        user_id: '146813105',
+        site_id: '649027190430403683',
+    },
+};
+
+(function(app_id, ec_hostname, discover_root_domain) {
+    var track = window._W.Analytics.trackers.wSP;
+    if (!track) return;
+    track('newTracker', app_id, ec_hostname, {
+        appId: app_id,
+        post: true,
+        platform: 'web',
+        discoverRootDomain: discover_root_domain,
+        cookieDomain: document.location.hostname,
+        cookieName: '_snow_',
+        contexts: {
+            webPage: true,
+            performanceTiming: true,
+            gaCookies: true
+        },
+        crossDomainLinker: function (linkElement) {
+            return regEx.test(linkElement.href);
+        },
+        respectDoNotTrack: document.cookie.indexOf('gdpr-kb') === -1
+    });
+    track('trackPageView', _W.Analytics.user_id+':'+_W.Analytics.site_id);
+    track('crossDomainLinker', function (linkElement) {
+        return regEx.test(linkElement.href);
+    });
+})(
+    '_wn',
+    'ec.editmysite.com',
+    true
+);
+</script>
+<!--end-square-online-snowplow-->
+
+
+            
+        
+    
+    <link rel="stylesheet" href="https://cdn3.editmysite.com/app/website/css/site.9952352b8d1dd2ee0549.css">
+</head>
+<body>
+    <div class="loading-view">
+        <div
+            class="loading-container"
+        >
+            <div
+                class="dot-container"
+            ></div>
+            <div
+                class="dot-container"
+            ></div>
+            <div
+                class="dot-container"
+            ></div>
+        </div>
+    </div>
+    <div id="app"></div>
+
+                
+        <link rel="stylesheet" type="text/css" href="https://cdn3.editmysite.com/app/checkout/assets/checkout/css/wcko.99db5b1178c4fc25a341.css" />
+    </body>
+</html>

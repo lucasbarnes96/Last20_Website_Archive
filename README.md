@@ -27,7 +27,8 @@ Last20 was a cleantech startup founded by siblings who developed an innovative s
    - Automatic browser opening
 
 2. **Direct File Access**:
-   - Open `simple.html` in your browser for the best experience
+   - Open `complete.html` for the full multi-page archive (recommended)
+   - Open `simple.html` for a single-page experience
    - Open `index.html` for the original version (may have some broken features)
 
 3. **Alternative Servers**:
@@ -40,8 +41,9 @@ Last20 was a cleantech startup founded by siblings who developed an innovative s
 ### File Structure
 
 ```
+├── complete.html           # Complete multi-page archive with all content (recommended)
+├── simple.html             # Simplified single-page version 
 ├── index.html              # Original homepage (requires external resources)
-├── simple.html             # Simplified, self-contained version (recommended)
 ├── server.py              # Enhanced Python server with mock API responses
 ├── css/                   # Stylesheets
 │   ├── site.css          # Main site styles
@@ -60,12 +62,21 @@ Last20 was a cleantech startup founded by siblings who developed an innovative s
 
 ## Features Archived
 
-### Simple Version (simple.html) - Recommended
-- ✅ Clean, modern design preserving original branding
-- ✅ Company information and messaging
+### Complete Archive (complete.html) - Recommended
+- ✅ **All 7 pages**: Home, About, Learn, Projects, Partners, News, Contact
+- ✅ **Full content extraction** from original website including founder information
+- ✅ **Interactive navigation** between all pages
+- ✅ **All news articles** and project descriptions preserved
+- ✅ **Social media links** and contact information
+- ✅ **Responsive design** that works perfectly on all devices
+- ✅ **No external dependencies** - completely self-contained
+- ✅ **Fast loading** with smooth page transitions
+
+### Simple Version (simple.html)
+- ✅ Clean, modern single-page design preserving original branding
+- ✅ Core company information and messaging
 - ✅ Responsive layout that works on all devices
 - ✅ Self-contained with no external dependencies
-- ✅ Fast loading and fully functional offline
 
 ### Original Version (index.html)
 - ✅ Original Square Online structure preserved

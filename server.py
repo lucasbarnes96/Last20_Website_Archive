@@ -26,9 +26,21 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         elif '/static/icons/' in self.path:
             self.send_mock_svg()
             return
-        elif self.path == '/':
+        elif self.path == '/' or self.path == '/index' or self.path == '/home':
             # Show index page with links to both versions
             self.send_index_page()
+            return
+        elif self.path.startswith('/css/') and '.css' in self.path and '?' in self.path:
+            # Handle CSS requests with query parameters
+            clean_path = self.path.split('?')[0]
+            self.path = clean_path
+            super().do_GET()
+            return
+        elif self.path.startswith('/js/') and '.js' in self.path and '?' in self.path:
+            # Handle JS requests with query parameters
+            clean_path = self.path.split('?')[0]  
+            self.path = clean_path
+            super().do_GET()
             return
         
         # Default handling
@@ -59,6 +71,9 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
     def send_index_page(self):
         self.send_response(200)
         self.send_header('Content-type', 'text/html')
+        self.send_header('Cache-Control', 'no-cache, no-store, must-revalidate')
+        self.send_header('Pragma', 'no-cache')
+        self.send_header('Expires', '0')
         self.end_headers()
         
         html = """
@@ -67,24 +82,37 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
         <head>
             <title>Last20 Website Archive</title>
             <meta charset="utf-8">
+            <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+            <meta http-equiv="Pragma" content="no-cache">
+            <meta http-equiv="Expires" content="0">
             <style>
-                body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; }
-                .option { background: #f5f5f5; padding: 2rem; margin: 1rem 0; border-radius: 8px; }
-                .btn { background: #25abe2; color: white; padding: 12px 24px; border-radius: 6px; text-decoration: none; display: inline-block; margin: 0.5rem 0; }
-                .btn:hover { background: #1a8fb8; }
-                .archive-notice { background: #fff3cd; border: 1px solid #ffeaa7; padding: 1rem; border-radius: 6px; color: #856404; margin: 2rem 0; }
+                body { font-family: system-ui, -apple-system, sans-serif; max-width: 800px; margin: 0 auto; padding: 2rem; line-height: 1.6; background: #fff; }
+                .option { background: #f5f5f5; padding: 2rem; margin: 1rem 0; border-radius: 8px; border: 2px solid #ddd; }
+                .btn { background: #25abe2; color: white; padding: 15px 30px; border-radius: 6px; text-decoration: none; display: inline-block; margin: 0.5rem 0; font-weight: bold; font-size: 16px; }
+                .btn:hover { background: #1a8fb8; transform: translateY(-1px); }
+                .archive-notice { background: #fff3cd; border: 1px solid #ffeaa7; padding: 1.5rem; border-radius: 6px; color: #856404; margin: 2rem 0; }
+                .troubleshoot { background: #e7f3ff; border: 1px solid #b3d9ff; padding: 1rem; border-radius: 6px; color: #0056b3; margin: 2rem 0; font-size: 14px; }
+                h1 { color: #333; text-align: center; margin-bottom: 2rem; }
+                .logo { text-align: center; font-size: 3rem; margin-bottom: 1rem; }
             </style>
         </head>
         <body>
-            <h1>🏛️ Last20 Website Archive</h1>
+            <div class="logo">🏛️</div>
+            <h1>Last20 Website Archive</h1>
             
             <div class="archive-notice">
                 <strong>📚 Archived Website</strong> - This is a preserved copy of Last20's website (www.last20.ca) for historical reference and memories.
             </div>
             
             <div class="option">
-                <h2>📖 Simple Version (Recommended)</h2>
-                <p>A clean, simplified version that preserves the main content and works perfectly offline.</p>
+                <h2>🌟 Complete Archive (Recommended)</h2>
+                <p>Full multi-page archive with all content, navigation, and news. All pages in one interactive site!</p>
+                <a href="complete.html" class="btn">View Complete Archive</a>
+            </div>
+            
+            <div class="option">
+                <h2>📖 Simple Version</h2>
+                <p>A clean, simplified single-page version that works perfectly offline.</p>
                 <a href="simple.html" class="btn">View Simple Version</a>
             </div>
             
@@ -95,6 +123,13 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
                 <small style="display: block; margin-top: 1rem; color: #666;">
                     Note: This version requires external services and may show errors in the browser console.
                 </small>
+            </div>
+            
+            <div class="troubleshoot">
+                <strong>🔧 Troubleshooting:</strong> If you see a loading spinner or blank page:
+                <br>• Try refreshing the page (Ctrl+R or Cmd+R)
+                <br>• Clear your browser cache
+                <br>• Try the Simple Version instead - it works reliably!
             </div>
             
             <hr style="margin: 3rem 0;">

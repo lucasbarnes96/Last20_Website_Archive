@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en_CA">
+<head>
+    <title>Last20 - Complete Website Archive</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    <link rel="shortcut icon" type="image/x-icon" href="uploads/b/3cb2ec90-4516-11ee-bcb6-8d1772d0343d/favicon.png">
+    <meta name="description" content="Last20: Upcycling plastic into pavement. Canadian clean-tech innovators paving the way to a sustainable future!">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: #ffffff;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        header {
+            background: #ffffff;
+            padding: 1rem 0;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .header-content {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            height: 60px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 2rem;
+            flex-wrap: wrap;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-weight: 500;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            transition: color 0.3s;
+            cursor: pointer;
+        }
+
+        nav a:hover, nav a.active {
+            color: #25abe2;
+        }
+
+        .page-section {
+            display: none;
+            min-height: 60vh;
+            padding: 2rem 0;
+        }
+
+        .page-section.active {
+            display: block;
+        }
+
+        .hero {
+            background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                        linear-gradient(135deg, #25abe2 0%, #333 100%);
+            color: white;
+            text-align: center;
+            padding: 120px 0;
+            margin-bottom: 4rem;
+        }
+
+        .hero h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            letter-spacing: -0.02em;
+        }
+
+        .hero p {
+            font-size: 1.25rem;
+            max-width: 600px;
+            margin: 0 auto 2rem;
+            opacity: 0.9;
+        }
+
+        .page-title {
+            font-size: 2.5rem;
+            font-weight: 800;
+            margin-bottom: 2rem;
+            color: #333;
+            text-align: center;
+        }
+
+        .content-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 3rem;
+            margin: 3rem 0;
+        }
+
+        .content-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+
+        .content-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .content-card h3 {
+            font-size: 1.5rem;
+            font-weight: 800;
+            margin-bottom: 1rem;
+            color: #333;
+        }
+
+        .content-card p {
+            color: #666;
+            margin-bottom: 1rem;
+        }
+
+        .founder-info {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 12px;
+            box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+            margin: 2rem 0;
+        }
+
+        .social-links {
+            margin: 2rem 0;
+            text-align: center;
+        }
+
+        .social-links a {
+            color: #25abe2;
+            text-decoration: none;
+            margin: 0 1rem;
+            font-weight: 500;
+            padding: 0.5rem 1rem;
+            border: 2px solid #25abe2;
+            border-radius: 25px;
+            transition: all 0.3s;
+            display: inline-block;
+        }
+
+        .social-links a:hover {
+            background: #25abe2;
+            color: white;
+        }
+
+        .archive-notice {
+            background: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 1rem;
+            margin: 2rem 0;
+            border-radius: 8px;
+            text-align: center;
+            color: #856404;
+        }
+
+        .news-item {
+            background: #fff;
+            padding: 1.5rem;
+            margin: 1rem 0;
+            border-radius: 8px;
+            border-left: 4px solid #25abe2;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+
+        .news-item h4 {
+            color: #333;
+            margin-bottom: 0.5rem;
+        }
+
+        .news-item p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        footer {
+            background: #333;
+            color: white;
+            padding: 3rem 0;
+            text-align: center;
+            margin-top: 4rem;
+        }
+
+        footer .logo {
+            filter: brightness(0) invert(1);
+            margin-bottom: 1rem;
+        }
+
+        @media (max-width: 768px) {
+            .hero h1 {
+                font-size: 2.5rem;
+            }
+            
+            nav ul {
+                justify-content: center;
+                gap: 1rem;
+            }
+            
+            .content-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <img src="uploads/b/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc/Last20_Logo_1693167311.png" alt="Last20 Logo" class="logo" onerror="this.style.display='none'">
+                <nav>
+                    <ul>
+                        <li><a href="#" onclick="showPage('home')" class="nav-link active">Home</a></li>
+                        <li><a href="#" onclick="showPage('about')" class="nav-link">About</a></li>
+                        <li><a href="#" onclick="showPage('learn')" class="nav-link">Learn</a></li>
+                        <li><a href="#" onclick="showPage('projects')" class="nav-link">Projects</a></li>
+                        <li><a href="#" onclick="showPage('partners')" class="nav-link">Partners</a></li>
+                        <li><a href="#" onclick="showPage('news')" class="nav-link">News</a></li>
+                        <li><a href="#" onclick="showPage('contact')" class="nav-link">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- HOME PAGE -->
+        <section id="home" class="page-section active">
+            <div class="hero">
+                <div class="container">
+                    <h1>Upcycling plastic into pavement</h1>
+                    <p>Last20 creates plastic-infused pavement by combining traditional pavement with low-density polyethylene.</p>
+                </div>
+            </div>
+
+            <div class="archive-notice">
+                <strong>📚 Website Archive</strong> - This is a preserved copy of the original Last20 website (www.last20.ca) for historical reference and memories.
+            </div>
+
+            <div class="container">
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Discover Plastic Pavement</h3>
+                        <p>Pioneering plastic pavement for a sustainable future. Our innovative technology combines traditional asphalt with recycled plastic materials.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Collaborate with Last20</h3>
+                        <p>Connect to explore innovative collaboration opportunities. Join us in building sustainable infrastructure solutions.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ABOUT PAGE -->
+        <section id="about" class="page-section">
+            <div class="container">
+                <h2 class="page-title">About Last20</h2>
+                
+                <div class="founder-info">
+                    <h3>Sustainable Innovation</h3>
+                    <p>We create plastic-infused pavement using low-density polyethylene (LDPE). We are dedicated to reducing plastic waste and promoting sustainability in the construction industry.</p>
+                    
+                    <p>Last20 was founded by <strong><a href="https://www.linkedin.com/in/lucasbarnes96/" target="_blank">Lucas</a></strong> and <strong><a href="https://www.linkedin.com/in/lauren-barnes/" target="_blank">Lauren</a></strong>, united by their passion for sustainability and innovation. Their journey is fueled by a commitment to revolutionize the pavement industry by upcycling plastic.</p>
+                </div>
+
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Our Mission</h3>
+                        <p>To revolutionize the pavement industry by creating sustainable, plastic-infused asphalt solutions that reduce waste and promote environmental responsibility.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Our Vision</h3>
+                        <p>A world where plastic waste is transformed into valuable infrastructure, paving the way to a more sustainable future for generations to come.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Our Technology</h3>
+                        <p>Using low-density polyethylene (LDPE), we create durable pavement solutions that perform as well as traditional asphalt while helping to reduce plastic waste.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- LEARN PAGE -->
+        <section id="learn" class="page-section">
+            <div class="container">
+                <h2 class="page-title">Learn About Plastic Pavement</h2>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>What is Plastic Pavement?</h3>
+                        <p>Plastic pavement is an innovative construction material that incorporates recycled plastic waste into traditional asphalt mixtures, creating a more sustainable and durable road surface.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Environmental Benefits</h3>
+                        <p>By upcycling plastic waste, we reduce landfill burden, decrease petroleum consumption in asphalt production, and create long-lasting infrastructure solutions.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Performance Advantages</h3>
+                        <p>Plastic-infused pavement offers improved durability, better resistance to cracking, enhanced flexibility in temperature changes, and reduced maintenance needs.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Research & Development</h3>
+                        <p>Our ongoing research focuses on optimizing plastic content ratios, testing long-term performance, and developing new applications for various infrastructure projects.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Implementation Process</h3>
+                        <p>We work with municipalities and contractors to integrate our plastic pavement solutions into existing construction workflows with minimal disruption.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Quality Assurance</h3>
+                        <p>All our plastic pavement solutions undergo rigorous testing to ensure they meet or exceed industry standards for safety, durability, and performance.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS PAGE -->
+        <section id="projects" class="page-section">
+            <div class="container">
+                <h2 class="page-title">Our Projects</h2>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>New York Test Site</h3>
+                        <p>Canadian startup tests plastic-infused asphalt in New York - a groundbreaking pilot project demonstrating the viability of our technology in real-world conditions.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Biotech Site Installation</h3>
+                        <p>Successful implementation of plastic-infused asphalt at a biotech facility, showcasing durability and environmental benefits in commercial applications.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Yonkers DPW Partnership</h3>
+                        <p>Collaboration with Yonkers Department of Public Works to test asphalt made with recycled plastics in municipal infrastructure projects.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Research Collaborations</h3>
+                        <p>Ongoing partnerships with universities and research institutions to advance plastic pavement technology and validate long-term performance.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Pilot Programs</h3>
+                        <p>Multiple pilot programs across different climate zones and traffic conditions to demonstrate the versatility of our plastic pavement solutions.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Future Developments</h3>
+                        <p>Expanding into new markets and developing next-generation plastic pavement formulations for specialized applications.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PARTNERS PAGE -->
+        <section id="partners" class="page-section">
+            <div class="container">
+                <h2 class="page-title">Our Partners</h2>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Strategic Partners</h3>
+                        <p>Connect with Last20's Key Enablers: Strategic partners, supporters, and collaborators fueling our startup success and innovation in sustainable infrastructure.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Enactus Team</h3>
+                        <p>Laurier's Waterloo Enactus team representing Canada was named runner-up at Enactus World Cup, showcasing our global impact and recognition.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>University Collaborations</h3>
+                        <p>Partnerships with leading universities for research, development, and student engagement programs that advance sustainable technology solutions.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Government Support</h3>
+                        <p>Working with municipal and regional governments to implement sustainable infrastructure solutions and policy development.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Industry Alliances</h3>
+                        <p>Collaborations with construction companies, material suppliers, and environmental organizations to scale our impact.</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Innovation Networks</h3>
+                        <p>New partnerships create international innovation opportunities for student enterprises and sustainable technology development.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- NEWS PAGE -->
+        <section id="news" class="page-section">
+            <div class="container">
+                <h2 class="page-title">News & Updates</h2>
+                <p style="text-align: center; margin-bottom: 2rem;">Stay updated on Last20's pioneering plastic pavement innovations. Join us in building a sustainable future, one road at a time!</p>
+                
+                <div class="news-item">
+                    <h4>Paving the way to sustainability: upcycling plastic into pavement</h4>
+                    <p>Latest insights into our innovative approach to transforming plastic waste into valuable infrastructure materials.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Canadian startup tests plastic-infused asphalt in New York</h4>
+                    <p>Major milestone as Last20 expands testing to international markets, demonstrating global applicability of our technology.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Canadian startup tests plastic-infused asphalt at biotech site</h4>
+                    <p>Successful commercial application showcasing the versatility and performance of our plastic pavement solutions.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Siblings create groundbreaking solution to plastic waste</h4>
+                    <p>The story behind Last20's founding and the innovative approach that's changing how we think about waste and infrastructure.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>BCW Celebrates Innovators at WIN Showcase</h4>
+                    <p>Recognition of Last20's contribution to innovation and sustainable technology development in the regional ecosystem.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Research Recap: Recycling Roads</h4>
+                    <p>Comprehensive overview of the science and technology behind plastic pavement and its environmental benefits.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Yonkers DPW to Test Asphalt Made with Recycled Plastics</h4>
+                    <p>Municipal partnership demonstrates government confidence in our technology and commitment to sustainable infrastructure.</p>
+                </div>
+                
+                <div class="news-item">
+                    <h4>Laurier's Enactus team named runner-up at World Cup</h4>
+                    <p>International recognition for the team behind Last20, highlighting the global impact of our sustainability mission.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT PAGE -->
+        <section id="contact" class="page-section">
+            <div class="container">
+                <h2 class="page-title">Connect with Last20</h2>
+                <p style="text-align: center; margin-bottom: 2rem;">Explore collaboration and learn more about our vision for sustainable infrastructure.</p>
+                
+                <div class="content-grid">
+                    <div class="content-card">
+                        <h3>Get in Touch</h3>
+                        <p>Ready to collaborate on sustainable infrastructure solutions? We'd love to hear from you.</p>
+                        <p><strong>Email:</strong> info@last20.ca</p>
+                    </div>
+                    
+                    <div class="content-card">
+                        <h3>Collaboration Opportunities</h3>
+                        <p>We're always looking for partners who share our vision of sustainable infrastructure. Whether you're a municipality, contractor, or fellow innovator, let's explore how we can work together.</p>
+                    </div>
+                </div>
+
+                <div class="social-links">
+                    <a href="mailto:info@last20.ca">📧 Email</a>
+                    <a href="#">📘 Facebook</a>
+                    <a href="#">📸 Instagram</a>
+                    <a href="#">💼 LinkedIn</a>
+                    <a href="#">🎵 TikTok</a>
+                    <a href="#">📺 YouTube</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <img src="uploads/b/590d76c8a6b7b845f0138e535bfc3b847766118ad66cd5192960bdc23a683fcc/Last20_Logo_1693167311.png" alt="Last20 Logo" class="logo" onerror="this.style.display='none'">
+            
+            <p>&copy; Last20 - Upcycling plastic into pavement</p>
+            <p><em>"Canadian clean-tech innovators paving the way to a sustainable future!"</em></p>
+            <p style="margin-top: 1rem; opacity: 0.7; font-size: 0.9rem;">Website archived September 2025 for historical preservation</p>
+        </div>
+    </footer>
+
+    <script>
+        function showPage(pageId) {
+            // Hide all pages
+            const pages = document.querySelectorAll('.page-section');
+            pages.forEach(page => page.classList.remove('active'));
+            
+            // Show selected page
+            document.getElementById(pageId).classList.add('active');
+            
+            // Update nav active state
+            const navLinks = document.querySelectorAll('.nav-link');
+            navLinks.forEach(link => link.classList.remove('active'));
+            event.target.classList.add('active');
+            
+            // Scroll to top
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        }
+        
+        // Handle browser back/forward buttons
+        window.addEventListener('popstate', function(e) {
+            if (e.state && e.state.page) {
+                showPage(e.state.page);
+            }
+        });
+        
+        // Update URL without page reload
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                const page = this.textContent.toLowerCase();
+                history.pushState({page: page}, '', '#' + page);
+            });
+        });
+    </script>
+</body>
+</html>
