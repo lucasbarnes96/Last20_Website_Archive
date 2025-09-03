@@ -110,28 +110,6 @@ class MyHandler(http.server.SimpleHTTPRequestHandler):
                 <a href="complete.html" class="btn">View Complete Archive</a>
             </div>
             
-            <div class="option">
-                <h2>📖 Simple Version</h2>
-                <p>A clean, simplified single-page version that works perfectly offline.</p>
-                <a href="simple.html" class="btn">View Simple Version</a>
-            </div>
-            
-            <div class="option">
-                <h2>⚙️ Original Version</h2>
-                <p>The original Square Online version. Some features may not work due to missing external dependencies.</p>
-                <a href="index.html" class="btn">View Original Version</a>
-                <small style="display: block; margin-top: 1rem; color: #666;">
-                    Note: This version requires external services and may show errors in the browser console.
-                </small>
-            </div>
-            
-            <div class="troubleshoot">
-                <strong>🔧 Troubleshooting:</strong> If you see a loading spinner or blank page:
-                <br>• Try refreshing the page (Ctrl+R or Cmd+R)
-                <br>• Clear your browser cache
-                <br>• Try the Simple Version instead - it works reliably!
-            </div>
-            
             <hr style="margin: 3rem 0;">
             
             <h3>About Last20</h3>
